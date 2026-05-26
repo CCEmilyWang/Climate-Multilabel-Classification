@@ -1,0 +1,58 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.env/
+.conda/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Model checkpoints
+checkpoints/
+outputs/
+saved_models/
+*.pt
+*.pth
+*.bin
+
+# Hugging Face cache
+.cache/
+huggingface/
+
+# Dataset files
+data/raw/
+data/processed/
+*.csv
+*.jsonl
+*.parquet
+
+# Experiment tracking
+wandb/
+mlruns/
+
+# Temporary files
+tmp/
+temp/
+
+# Generated figures
+figures/
+
+# System files
+Thumbs.db
